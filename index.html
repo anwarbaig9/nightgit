@@ -4,10 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>this is a headinv</h1>
-    <p>this is a paragraph</p>
-    <button>click</button>
+    <table>
+        <tr border="1">
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+          <td>Anwar</td>
+          <td>baig</td>
+          <td>100</td>
+        </tr> 
+        <tr>
+          <td>Anwar1</td>
+          <td>baig1</td>
+          <td>1001</td>
+        </tr>
+        <tr>
+            <td>sonal</td>
+            <td>boya</td>
+            <td>150</td>
+        </tr>
+        <tr>
+            <td>navya</td>
+            <td>yagana</td>
+            <td>200</td>
+        </tr>
+    </table>
+    <fieldset>
+        <legend>my form</legend>
+    <form >
+        Enter Your Name:
+        <input type="text" name="username" id="t1" placeholder="Enter Your Beautiful Name">
+        <br>
+        Enter Your Password:
+        <input type="password" name="passowrd" id="p1" placeholder="Enter Your Password">
+        <br>
+        Enter Date:
+        <input type="date" name="date" id="d1"><br>
+        Enter Email:
+        <input type="email" name="email" id="e1"><br>
+        Select Gender:
+        <input type="radio" name="gender"  value="male" id="m1">Male
+        <input type="radio" name="gender" id="f1" value="female">Female <br>
+       
+        <input type="submit" value="submit">
+    </form>
+</fieldset>
+<form>  
+    <label>Enter your Email-address</label><br>  
+    <input type="text" name="uname" ><br><br>  
+     <label>Enter your password</label><br>  
+    <input type="password" name="pass" autofocus><br><br>  
+    <input type="submit" value="login"> 
+    
+</form>  
+<script src="index.js"></script>
 </body>
 </html>

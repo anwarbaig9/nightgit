@@ -1,3 +1,14 @@
-.head{
-    border:2px solid green;
+table,th,td{
+    border: 2px solid green;
+    border-collapse: collapse;
+}
+th{
+    background-color: aqua;
+    color: yellow;
+}
+tr:nth-child(even){
+    background-color: rgb(255, 0, 93);
+}
+tr:nth-child(odd){
+    background-color: goldenrod;
 }
